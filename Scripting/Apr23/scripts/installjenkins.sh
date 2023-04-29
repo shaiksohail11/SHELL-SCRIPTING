@@ -1,3 +1,5 @@
+# For debugging use "bash -x <filename>"
+
 #!/bin/bash
 distribution=$(. /etc/os-release && echo $ID)
 echo $distribution
@@ -27,3 +29,4 @@ then
 else
     echo "This script runs only on ubuntu and redhat"
 fi
+
